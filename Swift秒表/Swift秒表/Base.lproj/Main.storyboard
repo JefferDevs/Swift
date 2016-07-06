@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swift秒表" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zzg-CG-sQE">
+                                <rect key="frame" x="46" y="113" width="283" height="80"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="KAJ-3x-dcD"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="52" name="Baskerville"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rfy-d9-kNv">
+                                <rect key="frame" x="66" y="253" width="63" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="0.47442013491352863" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="63" id="3Qi-jj-bpe"/>
+                                    <constraint firstAttribute="height" constant="45" id="4zS-vI-yNF"/>
+                                </constraints>
+                                <state key="normal" title="开始">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="irX-rM-RoQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWY-xx-iAi">
+                                <rect key="frame" x="156" y="253" width="63" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="0.47442013490000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="63" id="I1n-nZ-TlI"/>
+                                    <constraint firstAttribute="height" constant="45" id="ReW-hh-2fv"/>
+                                </constraints>
+                                <state key="normal" title="暂停">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NaO-DL-XSd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZx-X9-8yK">
+                                <rect key="frame" x="246" y="253" width="63" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="0.47442013490000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="WDo-sZ-iv9"/>
+                                    <constraint firstAttribute="width" constant="63" id="x56-my-d8E"/>
+                                </constraints>
+                                <state key="normal" title="复位">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YUW-rx-Yb0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zzg-CG-sQE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="93" id="Gzi-Of-dEn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zzg-CG-sQE" secondAttribute="trailing" constant="30" id="QIo-gM-7ld"/>
+                            <constraint firstItem="ZZx-X9-8yK" firstAttribute="top" secondItem="eWY-xx-iAi" secondAttribute="top" id="QT0-3c-a8k"/>
+                            <constraint firstItem="Zzg-CG-sQE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Srw-OO-HHc"/>
+                            <constraint firstItem="ZZx-X9-8yK" firstAttribute="leading" secondItem="eWY-xx-iAi" secondAttribute="trailing" constant="27" id="VTH-6g-iOB"/>
+                            <constraint firstItem="eWY-xx-iAi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eJE-0R-vWM"/>
+                            <constraint firstItem="eWY-xx-iAi" firstAttribute="leading" secondItem="rfy-d9-kNv" secondAttribute="trailing" constant="27" id="fd5-AO-Ssp"/>
+                            <constraint firstItem="eWY-xx-iAi" firstAttribute="top" secondItem="Zzg-CG-sQE" secondAttribute="bottom" constant="60" id="hrQ-3b-f01"/>
+                            <constraint firstItem="eWY-xx-iAi" firstAttribute="top" secondItem="rfy-d9-kNv" secondAttribute="top" id="ofS-s3-h9W"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="startBtn" destination="rfy-d9-kNv" id="Uyr-kV-onW"/>
+                        <outlet property="stopBtn" destination="eWY-xx-iAi" id="5Hq-AO-GKD"/>
+                        <outlet property="timeLabel" destination="Zzg-CG-sQE" id="dzd-kv-GWf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320.5" y="323.5"/>
+        </scene>
+    </scenes>
+</document>
