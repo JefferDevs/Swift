@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F19222C1D2DF12F00EC7EB0 /* little_lucky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F19222B1D2DF12F00EC7EB0 /* little_lucky.mp3 */; };
+		3FCD66FD1D2DEA7800202BE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD66FC1D2DEA7800202BE5 /* AppDelegate.swift */; };
+		3FCD66FF1D2DEA7800202BE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD66FE1D2DEA7800202BE5 /* ViewController.swift */; };
+		3FCD67021D2DEA7800202BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD67001D2DEA7800202BE5 /* Main.storyboard */; };
+		3FCD67041D2DEA7800202BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD67031D2DEA7800202BE5 /* Assets.xcassets */; };
+		3FCD67071D2DEA7800202BE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD67051D2DEA7800202BE5 /* LaunchScreen.storyboard */; };
+		3FCD67121D2DEA7800202BE5 /* Swift____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD67111D2DEA7800202BE5 /* Swift____Tests.swift */; };
+		3FCD671D1D2DEA7800202BE5 /* Swift____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD671C1D2DEA7800202BE5 /* Swift____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FCD670E1D2DEA7800202BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCD66F11D2DEA7800202BE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCD66F81D2DEA7800202BE5;
+			remoteInfo = "Swift音乐播放";
+		};
+		3FCD67191D2DEA7800202BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FCD66F11D2DEA7800202BE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCD66F81D2DEA7800202BE5;
+			remoteInfo = "Swift音乐播放";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F19222B1D2DF12F00EC7EB0 /* little_lucky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = little_lucky.mp3; sourceTree = "<group>"; };
+		3FCD66F91D2DEA7800202BE5 /* Swift音乐播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift音乐播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCD66FC1D2DEA7800202BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FCD66FE1D2DEA7800202BE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FCD67011D2DEA7800202BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FCD67031D2DEA7800202BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCD67061D2DEA7800202BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FCD67081D2DEA7800202BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCD670D1D2DEA7800202BE5 /* Swift音乐播放Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift音乐播放Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCD67111D2DEA7800202BE5 /* Swift____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____Tests.swift"; sourceTree = "<group>"; };
+		3FCD67131D2DEA7800202BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCD67181D2DEA7800202BE5 /* Swift音乐播放UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift音乐播放UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCD671C1D2DEA7800202BE5 /* Swift____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____UITests.swift"; sourceTree = "<group>"; };
+		3FCD671E1D2DEA7800202BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCD66F61D2DEA7800202BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCD670A1D2DEA7800202BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCD67151D2DEA7800202BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCD66F01D2DEA7800202BE5 = {
+			isa = PBXGroup;
+			children = (
+				3FCD66FB1D2DEA7800202BE5 /* Swift音乐播放 */,
+				3FCD67101D2DEA7800202BE5 /* Swift音乐播放Tests */,
+				3FCD671B1D2DEA7800202BE5 /* Swift音乐播放UITests */,
+				3FCD66FA1D2DEA7800202BE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FCD66FA1D2DEA7800202BE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FCD66F91D2DEA7800202BE5 /* Swift音乐播放.app */,
+				3FCD670D1D2DEA7800202BE5 /* Swift音乐播放Tests.xctest */,
+				3FCD67181D2DEA7800202BE5 /* Swift音乐播放UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCD66FB1D2DEA7800202BE5 /* Swift音乐播放 */ = {
+			isa = PBXGroup;
+			children = (
+				3FCD66FC1D2DEA7800202BE5 /* AppDelegate.swift */,
+				3FCD66FE1D2DEA7800202BE5 /* ViewController.swift */,
+				3FCD67001D2DEA7800202BE5 /* Main.storyboard */,
+				3FCD67031D2DEA7800202BE5 /* Assets.xcassets */,
+				3FCD67051D2DEA7800202BE5 /* LaunchScreen.storyboard */,
+				3F19222B1D2DF12F00EC7EB0 /* little_lucky.mp3 */,
+				3FCD67081D2DEA7800202BE5 /* Info.plist */,
+			);
+			path = "Swift音乐播放";
+			sourceTree = "<group>";
+		};
+		3FCD67101D2DEA7800202BE5 /* Swift音乐播放Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCD67111D2DEA7800202BE5 /* Swift____Tests.swift */,
+				3FCD67131D2DEA7800202BE5 /* Info.plist */,
+			);
+			path = "Swift音乐播放Tests";
+			sourceTree = "<group>";
+		};
+		3FCD671B1D2DEA7800202BE5 /* Swift音乐播放UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FCD671C1D2DEA7800202BE5 /* Swift____UITests.swift */,
+				3FCD671E1D2DEA7800202BE5 /* Info.plist */,
+			);
+			path = "Swift音乐播放UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FCD66F81D2DEA7800202BE5 /* Swift音乐播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCD67211D2DEA7800202BE5 /* Build configuration list for PBXNativeTarget "Swift音乐播放" */;
+			buildPhases = (
+				3FCD66F51D2DEA7800202BE5 /* Sources */,
+				3FCD66F61D2DEA7800202BE5 /* Frameworks */,
+				3FCD66F71D2DEA7800202BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift音乐播放";
+			productName = "Swift音乐播放";
+			productReference = 3FCD66F91D2DEA7800202BE5 /* Swift音乐播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FCD670C1D2DEA7800202BE5 /* Swift音乐播放Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCD67241D2DEA7800202BE5 /* Build configuration list for PBXNativeTarget "Swift音乐播放Tests" */;
+			buildPhases = (
+				3FCD67091D2DEA7800202BE5 /* Sources */,
+				3FCD670A1D2DEA7800202BE5 /* Frameworks */,
+				3FCD670B1D2DEA7800202BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCD670F1D2DEA7800202BE5 /* PBXTargetDependency */,
+			);
+			name = "Swift音乐播放Tests";
+			productName = "Swift音乐播放Tests";
+			productReference = 3FCD670D1D2DEA7800202BE5 /* Swift音乐播放Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FCD67171D2DEA7800202BE5 /* Swift音乐播放UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCD67271D2DEA7800202BE5 /* Build configuration list for PBXNativeTarget "Swift音乐播放UITests" */;
+			buildPhases = (
+				3FCD67141D2DEA7800202BE5 /* Sources */,
+				3FCD67151D2DEA7800202BE5 /* Frameworks */,
+				3FCD67161D2DEA7800202BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FCD671A1D2DEA7800202BE5 /* PBXTargetDependency */,
+			);
+			name = "Swift音乐播放UITests";
+			productName = "Swift音乐播放UITests";
+			productReference = 3FCD67181D2DEA7800202BE5 /* Swift音乐播放UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FCD66F11D2DEA7800202BE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Beacool;
+				TargetAttributes = {
+					3FCD66F81D2DEA7800202BE5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9ZRUUUVCB7;
+					};
+					3FCD670C1D2DEA7800202BE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3FCD66F81D2DEA7800202BE5;
+					};
+					3FCD67171D2DEA7800202BE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3FCD66F81D2DEA7800202BE5;
+					};
+				};
+			};
+			buildConfigurationList = 3FCD66F41D2DEA7800202BE5 /* Build configuration list for PBXProject "Swift音乐播放" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FCD66F01D2DEA7800202BE5;
+			productRefGroup = 3FCD66FA1D2DEA7800202BE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCD66F81D2DEA7800202BE5 /* Swift音乐播放 */,
+				3FCD670C1D2DEA7800202BE5 /* Swift音乐播放Tests */,
+				3FCD67171D2DEA7800202BE5 /* Swift音乐播放UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FCD66F71D2DEA7800202BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCD67071D2DEA7800202BE5 /* LaunchScreen.storyboard in Resources */,
+				3FCD67041D2DEA7800202BE5 /* Assets.xcassets in Resources */,
+				3FCD67021D2DEA7800202BE5 /* Main.storyboard in Resources */,
+				3F19222C1D2DF12F00EC7EB0 /* little_lucky.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCD670B1D2DEA7800202BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCD67161D2DEA7800202BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCD66F51D2DEA7800202BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCD66FF1D2DEA7800202BE5 /* ViewController.swift in Sources */,
+				3FCD66FD1D2DEA7800202BE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCD67091D2DEA7800202BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCD67121D2DEA7800202BE5 /* Swift____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCD67141D2DEA7800202BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCD671D1D2DEA7800202BE5 /* Swift____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FCD670F1D2DEA7800202BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCD66F81D2DEA7800202BE5 /* Swift音乐播放 */;
+			targetProxy = 3FCD670E1D2DEA7800202BE5 /* PBXContainerItemProxy */;
+		};
+		3FCD671A1D2DEA7800202BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCD66F81D2DEA7800202BE5 /* Swift音乐播放 */;
+			targetProxy = 3FCD67191D2DEA7800202BE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FCD67001D2DEA7800202BE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCD67011D2DEA7800202BE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FCD67051D2DEA7800202BE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCD67061D2DEA7800202BE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FCD671F1D2DEA7800202BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FCD67201D2DEA7800202BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FCD67221D2DEA7800202BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Swift音乐播放/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beacool.Swift----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FCD67231D2DEA7800202BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Swift音乐播放/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beacool.Swift----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FCD67251D2DEA7800202BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift音乐播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beacool.Swift----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift音乐播放.app/Swift音乐播放";
+			};
+			name = Debug;
+		};
+		3FCD67261D2DEA7800202BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift音乐播放Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beacool.Swift----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift音乐播放.app/Swift音乐播放";
+			};
+			name = Release;
+		};
+		3FCD67281D2DEA7800202BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift音乐播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beacool.Swift----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift音乐播放";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FCD67291D2DEA7800202BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift音乐播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.beacool.Swift----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift音乐播放";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FCD66F41D2DEA7800202BE5 /* Build configuration list for PBXProject "Swift音乐播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCD671F1D2DEA7800202BE5 /* Debug */,
+				3FCD67201D2DEA7800202BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCD67211D2DEA7800202BE5 /* Build configuration list for PBXNativeTarget "Swift音乐播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCD67221D2DEA7800202BE5 /* Debug */,
+				3FCD67231D2DEA7800202BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCD67241D2DEA7800202BE5 /* Build configuration list for PBXNativeTarget "Swift音乐播放Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCD67251D2DEA7800202BE5 /* Debug */,
+				3FCD67261D2DEA7800202BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCD67271D2DEA7800202BE5 /* Build configuration list for PBXNativeTarget "Swift音乐播放UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCD67281D2DEA7800202BE5 /* Debug */,
+				3FCD67291D2DEA7800202BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FCD66F11D2DEA7800202BE5 /* Project object */;
+}
